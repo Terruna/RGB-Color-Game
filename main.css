@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(96, 174, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+h2{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 150;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    background-color: aliceblue;
+
+}
+
+.button{
+    border: none;
+    height: 100%;
+    background-color: aliceblue ;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: rgb(55, 129, 240);
+    color: aliceblue;
+}
+body{
+    background-color: rgb(56, 56, 56);
+   
+}
+
+.box{
+    display: flex;
+    
+    justify-content: center;
+    margin:auto;
+    margin-top: 30px;
+    height: 100vh;
+    width: 1200px;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.square{
+    border-radius: 30px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+}
+/* .hint{
+    height:200px;
+    width: 600px;
+    
+    font-size: 50px;
+}
+
+.cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.button:focus{
+    background-color: rgb(55, 129, 240);
+    color: aliceblue;
+}
+#hard{
+    background-color: rgb(55, 129, 240);
+    color: aliceblue;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(76, 76, 76);
+}
